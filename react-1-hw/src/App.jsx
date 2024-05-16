@@ -1,3 +1,8 @@
+import john from "./assets/man.png";
+import table from "./assets/dashboard.png";
+import days from "./assets/days.png";
+import girl from "./assets/girl.png";
+
 function App() {
   return (
     <>
@@ -29,7 +34,7 @@ function App() {
               <button>Download Resume</button>
             </div>
             <div class="head-right">
-              <img src="./static/images/Ellipse 1.png" alt="john photo" />
+              <img src={john} alt="john photo" />
             </div>
           </div>
         </div>
@@ -74,7 +79,7 @@ function App() {
         <div class="wrapper">
           <p class="title">Feactured works</p>
           <div class="main">
-            <img src="./static/images/Rectangle 30.png" alt="photo" />
+            <img src={table} alt="photo" />
             <div class="content">
               <h2>Designing Dashboards</h2>
               <div class="content-date">
@@ -90,7 +95,7 @@ function App() {
           </div>
           <p class="title">Feactured works</p>
           <div class="main">
-            <img src="./static/images/Rectangle 32.png" alt="photo" />
+            <img src={girl} alt="photo" />
             <div class="content">
               <h2>Vibrant Portraits of 2020</h2>
               <div class="content-date">
@@ -106,7 +111,7 @@ function App() {
           </div>
           <p class="title">Feactured works</p>
           <div class="main">
-            <img src="./static/images/Rectangle 34.png" alt="photo" />
+            <img src={days} alt="photo" />
             <div class="content">
               <h2>36 Days of Malayalam type</h2>
               <div class="content-date">
